@@ -1,0 +1,38 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.tag-container {
+    background: #f4f4f4;
+    padding:20px 10px 10px 20px;
+    border-radius: 8px;
+    width: 350px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#skillInput {
+    width:80%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.tag {
+    display: inline-block;
+    background: #007bff;
+    color: #ffffff;
+    padding: 5px 10px;
+    margin: 4px;
+    border-radius: 16px;
+    font-size: 14px;
+}
+.tag-span {
+    margin-left: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
